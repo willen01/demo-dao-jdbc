@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 // Serializable = Para que o objeto seja transformado em uma sequência de bytes, isso é necessário quando queremos gravar o objeto em arquivo, os dados sejam trafegados em rede ..
 public class Department implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private Integer id;
     private String name;
 

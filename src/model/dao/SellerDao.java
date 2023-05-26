@@ -4,6 +4,7 @@ import java.util.List;
 
 import model.entities.Seller;
 
+//Define aas operações de acesso aos dados de seller
 public interface SellerDao {
     void insert(Seller obj);
 

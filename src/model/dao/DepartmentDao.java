@@ -4,6 +4,7 @@ import java.util.List;
 
 import model.entities.Department;
 
+// Define as operações de acesso a dados de Department
 public interface DepartmentDao {
 
     void insert(Department obj);
